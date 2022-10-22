@@ -7,6 +7,10 @@ Summary notes on operating systems
 
 ```dpkg -l | less``` List of installed packages.
 
+```sudo apt-get update``` Update packages list. 
+
+```sudo apt-get install PACKAGE-NAME``` Install a package.
+
 
 ### ```Less``` command
 
