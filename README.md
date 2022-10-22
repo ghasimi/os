@@ -5,6 +5,8 @@ Summary notes on operating systems
 
 ### Files and Directories
 
+```man COMMAND``` manual page of commands. e.g. ```man ls```.
+
 ```ls``` display non-hidden content of the directory.
 
 ```ls -a``` display all, inclduing hidden content.
@@ -16,6 +18,8 @@ Summary notes on operating systems
 ```ls -lt``` long format display, sorted by last modfied time.
 
 ```ls -alth``` display all, in long-format, sorted by time, with human-readable file sizes.
+
+```ls -lS``` long format display, sorted by size.
 
 ```mkdir``` create directory.
 
