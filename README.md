@@ -37,6 +37,8 @@ Summary notes on operating systems
 
 ```cd\``` to the root directory.
 
+```mv [source] [destination]``` to move or rename.
+
 
 ### Packages
 
