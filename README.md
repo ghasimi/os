@@ -3,6 +3,37 @@ Summary notes on operating systems
 
 ## Linux
 
+### Files and Directories
+
+```ls``` display non-hidden content of the directory.
+
+```ls -a``` display all, inclduing hidden content.
+
+```ls -l``` long format diplay.
+
+```ls -lh``` long format diplay, with human-readable file sizes.
+
+```ls -lt``` long format display, sorted by last modfied time.
+
+```ls -alth``` display all, in long-format, sorted by time, with human-readable file sizes.
+
+```mkdir``` create directory.
+
+```rmdir``` remove _empty_ directory.
+
+```rm -d``` remove _empty_ directory.
+
+```rm -r``` remove a directory and its content. ```-r``` stands for recursive.
+
+```rm``` remove file.
+
+```cd``` change directory.
+
+```cd ..``` previous directory.
+
+```cd\``` to the root directory.
+
+
 ### Packages
 
 ```dpkg -l | less``` List of installed packages.
