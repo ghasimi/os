@@ -35,9 +35,17 @@ Summary notes on operating systems
 
 ```cd ..``` previous directory.
 
-```cd\``` to the root directory.
+```cd /``` to the root directory.
 
-```mv [source] [destination]``` to move or rename.
+```mv [source] [destination]``` move or rename.
+
+```cp [source] [destination]``` copy.
+
+```pwd``` print working directory.
+
+```~/relative/path/from/home/username```.
+
+```/relative/path/from/root```.
 
 
 ### Packages
