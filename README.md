@@ -47,6 +47,9 @@ Summary notes on operating systems
 
 ```/relative/path/from/root```.
 
+```find ~ -type f -name "ex*.csv" -size +100k``` find _csv_ files, in the home directory, with size greater than 100KB. 
+
+```find . -maxdepth 3 -name "*apple*" -and -not -name "test*"``` find any file or directory, in the current path with max depth of up to two subfolders, that includes _apple_ and does not start with _test_.
 
 ### Packages
 
