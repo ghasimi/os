@@ -51,6 +51,8 @@ Summary notes on operating systems
 
 ```find . -maxdepth 3 -name "*apple*" -and -not -name "test*"``` find any file or directory, in the current path with max depth of up to two subfolders, that includes _apple_ and does not start with _test_.
 
+```find . -iname "downl*"``` case-insensetive search to find any file or directory that starts with _downl_.
+
 ### Packages
 
 ```dpkg -l | less``` List of installed packages.
