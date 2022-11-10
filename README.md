@@ -86,6 +86,17 @@ Summary notes on operating systems
 
 ```q``` Quit
 
+### Multiple Commands
+
+```A && B``` execute command B only if command A succeeded.
+
+```A || B``` execute command B only if command A failed.
+
+```A; B``` execute command B regardless of the status of command A.
+
+```if [ -d path/to/folder ]; then  echo "folder exists"; else echo "folder does not exist"; fi```.
+
+
 ### Other
 
 ```ps``` list processes with PID, user, etc.
