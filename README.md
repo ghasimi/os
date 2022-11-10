@@ -21,6 +21,10 @@ Summary notes on operating systems
 
 ```ls -lS``` long format display, sorted by size.
 
+```ls -l > filename``` output to a file.
+
+```ls -l | sort -r -n +4``` list and sort by 4th column (size) in descending order (-r), based on numeric values (-n).  
+
 ```mkdir``` create directory.
 
 ```rmdir``` remove _empty_ directory.
@@ -82,3 +86,14 @@ Summary notes on operating systems
 
 ```q``` Quit
 
+### Other
+
+```ps``` list processes with PID, user, etc.
+
+```top``` interactive summary of tasks and CPU/RAM utilization.
+
+```gcc filename.c``` compile C.
+
+```c++ filename.cpp``` compile C++.
+
+```javac filename.java``` compile Java.
