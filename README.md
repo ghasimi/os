@@ -96,6 +96,37 @@ Summary notes on operating systems
 
 ```if [ -d path/to/folder ]; then  echo "folder exists"; else echo "folder does not exist"; fi```.
 
+### Permissions Modes
+
+- Permissions are based on three triads of read (r), write (w), and execute (x) for three the owner, group, and other. 
+- For example ```-rwxrwxrwx``` gives all three r/w/x to all three owner/group/other.
+- Each symbolic permission maps to a numeric code by summing up the bit values corresponding to the each permission. For example:
+
+```
+symbolic -rwxr--r-- maps to 744 as follows:
+
+owner r: 100 -> 4
+owner w: 010 -> 2
+owner x: 001 -> 1
+-> owner = 4 + 2 + 1 = 7
+
+group r: 100 -> 4
+group w: 000 -> 0
+group x: 000 -> 0
+-> group = 4 + 0 + 0 = 4
+
+other r: 000 -> 4
+other w: 000 -> 0
+other x: 000 -> 0
+-> other = 4 + 0 + 0 = 4
+
+-> numeric = 744
+```
+ 
+- ```ls -l``` symbolic permission mode in the 1st column. 
+- ```stat -c '%a %n' *``` numeric value of permission mode for all files in the folder.
+- ```chmod 700 filename``` changes permission mode to 700.
+
 
 ### Other
 
