@@ -128,6 +128,19 @@ other x: 000 -> 0
 - ```chmod 700 filename``` changes permission mode to 700.
 
 
+### CPU Temperature
+
+```
+sudo apt-get install lm-sensors
+sudo sensros-detect
+sensors
+```
+To refresh every 1 seconds:
+```
+watch -n1 sensors
+```
+
+
 ### Other
 
 ```ps``` list processes with PID, user, etc.
@@ -139,3 +152,9 @@ other x: 000 -> 0
 ```c++ filename.cpp``` compile C++.
 
 ```javac filename.java``` compile Java.
+
+```gsettings set org.gnome.desktop.background picture-uri ""``` remove background picture.
+
+```gsettings set org.gnome.desktop.background primary-color '#FF00BB'``` solid color for background.
+
+```watch -n3 [command]``` to update the output of the command every 3 seconds.
