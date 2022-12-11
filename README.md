@@ -96,6 +96,27 @@ Summary notes on operating systems
 
 ```if [ -d path/to/folder ]; then  echo "folder exists"; else echo "folder does not exist"; fi```.
 
+
+### Text
+
+
+```nano``` terminal's editor.
+
+```gedit``` GUI editor.
+
+```cat``` print the content of files.
+
+```echo "some texts" >> file``` append text to the end of the file.
+
+```touch file1.txt file2.py file3``` create files.
+
+Change the tab-size of `nano` by adding these lines to `~/nanorc`:
+
+```
+set tabsize 4
+set tabstospaces
+```
+
 ### Permissions Modes
 
 - Permissions are based on three triads of read (r), write (w), and execute (x) for three the owner, group, and other. 
