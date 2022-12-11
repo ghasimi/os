@@ -148,6 +148,24 @@ other x: 000 -> 0
 - ```stat -c '%a %n' *``` numeric value of permission mode for all files in the folder.
 - ```chmod 700 filename``` changes permission mode to 700.
 
+### Batch file
+
+Content of a sample batch file, `hello.sh`. The `.sh` is just a convention. 
+```
+#! /bin/bash
+
+echo "Hello!"
+```
+
+Making it executable:
+
+```
+chmod +x hello.sh
+```
+Run it:
+```
+./hello.sh
+```
 
 ### CPU Temperature
 
